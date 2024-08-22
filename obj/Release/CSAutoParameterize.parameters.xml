@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="toDo-Web.config Connection String" description="toDo Connection String used in web.config by the application to access the database." defaultValue="SERVER=srikalabhairavar.in;PORT=3306;DATABASE=srikala1_VetriASPNET;UID=srikala1_vetri; PASSWORD=Vetri@123456" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\dotNet\\Todolist\\ApplicationProjects\\TodoList\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='toDo']/@connectionString" />
+  </parameter>
+</parameters>
